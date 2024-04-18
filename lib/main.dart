@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:web_api_3c/screens/getusers.dart';
+import 'package:web_api_3c/screens/maps_google.dart';
 import 'package:web_api_3c/screens/register.dart';
 
 void main() {
@@ -12,7 +14,7 @@ class WebApi extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: RegisterScreen(),
+      home: MapsScreen(),
     );
   }
 }
